@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7506944098544823327
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7757b39f523d0ce48bc597410c6ca63e, type: 3}
+  m_Name: CustomGraph.Sample.SampleCustomNodeData
+  m_EditorClassIdentifier: 
+  Guid: ef9d0c4330a55624d999ff3083f75b15
+  Rect: {x: 325, y: 157}
+--- !u!114 &-3166774233797346541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7757b39f523d0ce48bc597410c6ca63e, type: 3}
+  m_Name: CustomGraph.Sample.SampleCustomNodeData
+  m_EditorClassIdentifier: 
+  Guid: 381f54f3b64f599428fd48e3dbc8c2ef
+  Rect: {x: -165.4, y: 366.40002}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb7990651a313143acd7bf853a56538, type: 3}
+  m_Name: CustomNodeDataList
+  m_EditorClassIdentifier: 
+  _nodes:
+  - {fileID: 7468068364694689955}
+  - {fileID: -7506944098544823327}
+  - {fileID: 74977518211964058}
+  - {fileID: -3166774233797346541}
+  _edges:
+  - Guid: c1dbe87bb9d4e744b9e5fe8e675c421d
+    OutputGuid: 10432aa975f11ac4590538fa50d73bfa
+    OutputNum: 1
+    InputGuid: ef9d0c4330a55624d999ff3083f75b15
+    InputNum: 0
+  - Guid: ece8a78eb6db6f047b778f6cafc13edc
+    OutputGuid: 10432aa975f11ac4590538fa50d73bfa
+    OutputNum: 2
+    InputGuid: ab0704645526ec149b093be5deb5c6f8
+    InputNum: 0
+--- !u!114 &74977518211964058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7757b39f523d0ce48bc597410c6ca63e, type: 3}
+  m_Name: CustomGraph.Sample.SampleCustomNodeData
+  m_EditorClassIdentifier: 
+  Guid: ab0704645526ec149b093be5deb5c6f8
+  Rect: {x: 307.81, y: 366}
+--- !u!114 &1144565014160008015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11786d2abfffb54d88c3debc8217dfb, type: 3}
+  m_Name: CustomNodeData
+  m_EditorClassIdentifier: 
+  Guid: fa3bca17d9e1eae478818eb7a28bc37b
+  Rect: {x: 247.4, y: 152.59999}
+  Description: 
+--- !u!114 &1805450455703634060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11786d2abfffb54d88c3debc8217dfb, type: 3}
+  m_Name: CustomNodeData
+  m_EditorClassIdentifier: 
+  Guid: 7a2e51b935dcc5746b8b9952c0e7d842
+  Rect: {x: 552.6, y: 30.600006}
+  Description: 
+--- !u!114 &5979123514063577958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f11786d2abfffb54d88c3debc8217dfb, type: 3}
+  m_Name: CustomGraph.CustomNodeData
+  m_EditorClassIdentifier: 
+  Guid: f3a8687daedfd0f419a9e46433b36755
+  Rect: {x: -52.8, y: 102.399994}
+  Description: 
+--- !u!114 &7468068364694689955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7757b39f523d0ce48bc597410c6ca63e, type: 3}
+  m_Name: CustomGraph.Sample.SampleCustomNodeData
+  m_EditorClassIdentifier: 
+  Guid: 10432aa975f11ac4590538fa50d73bfa
+  Rect: {x: -57, y: 157.59998}

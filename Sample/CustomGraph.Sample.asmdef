@@ -1,0 +1,16 @@
+{
+    "name": "CustomGraph.Sample",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ff52982d0bb2e064587d1b8c551583a2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

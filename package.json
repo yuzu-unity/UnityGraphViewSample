@@ -1,0 +1,13 @@
+{
+  "name": "com.yuzuunity.customgraph",
+  "version": "1.0.0",
+  "displayName": "CustomGraph",
+  "description": "Unity GraphView Sample",
+  "keywords": [],
+  "author": {
+    "name": "Unity",
+    "email": "unity@example.com",
+    "url": "https://www.unity3d.com"
+  },
+  "type": "tool"
+}

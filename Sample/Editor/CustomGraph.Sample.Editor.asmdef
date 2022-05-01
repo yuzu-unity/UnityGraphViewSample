@@ -1,0 +1,18 @@
+{
+    "name": "CustomGraph.Sample.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:07766c0778cffe24aabfcc4123504f55",
+        "GUID:b925e2ec62d8b53418b185e5fcf9bb06",
+        "GUID:ff52982d0bb2e064587d1b8c551583a2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
